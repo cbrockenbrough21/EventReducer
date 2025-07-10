@@ -22,8 +22,8 @@
  #include <phool/recoConsts.h>
  #include <geom_svc/GeomSvc.h>
 
-#include "SRawEvent.h"
-#include "TriggerAnalyzer.h"
+#include "ktracker/SRawEvent.h"
+#include "ktracker/TriggerAnalyzer.h"
   
  class EventReducer
  {

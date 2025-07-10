@@ -33,7 +33,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -I$ENV{OFFLINE_MAIN}/include/
 
 # Build library
 add_library(EventReducer SHARED ${sources} EventReducer_Dict.cc)
-target_link_libraries(EventReducer fun4all interface_main geom_svc ktracker reco phg4hit PHPythia8 g4detectors UtilAna)
+target_link_libraries(EventReducer fun4all interface_main geom_svc ktracker phg4hit PHPythia8 g4detectors UtilAna)
 
 # Install library and headers
 install(TARGETS EventReducer DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
